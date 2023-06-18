@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 from sqlalchemy.exc import IntegrityError
 from socket import gethostname
-from seed_data import generate_entry
+# from seed_data import generate_entry
 import logging
 import os
 import pytest

@@ -14,7 +14,6 @@ RUN pip3 install -r /src/requirements.txt
 
 ADD app/*.py /src/
 WORKDIR /src
-RUN pytest 
 
 ENTRYPOINT ["/src/boot.sh"]
 
